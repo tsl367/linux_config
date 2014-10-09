@@ -38,6 +38,8 @@ if has("gui_running")
     set lines=40             " 设置长
     map  <silent>  <S-Insert>  "+p
     imap <silent>  <S-Insert>  <Esc>"+pa
+    "select for copy
+    noremap <LeftRelease> "+y<LeftRelease>
 endif
 
 "set current dir
