@@ -30,6 +30,12 @@ set wildmode=longest,list,full
 set guioptions=ce
 set antialias
 set linespace=2
+"encoding
+set encoding=utf-8
+set fileencodings=utf-8,chinese,latin-1
+set fileencoding=chinese
+language messages zh_CN.utf-8
+
 if has("gui_running")
     set guifont=Monospace\ 14
     set go=aAce              " 去掉难看的工具栏和滑动条
